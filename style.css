@@ -1,3 +1,39 @@
-body {background-color:white;}
-h1{color:gray;}
-
+* {
+  margin: 0 auto;
+  font-family: Helvetica;
+}
+h1{
+  padding:1em;
+  color:gray;
+}
+html {
+  background-color: black;
+}
+#input_div{
+  display:table;
+}
+#input_field1{
+  padding-left:2.5em;
+}
+#input_field2{
+  padding-left:0.5em;
+}
+#input_field3{
+  padding-left:1em;
+}
+footer{
+  padding:1em;
+}
+span{
+  padding:0.5em;
+}
+form {
+  width: 30em;
+  padding: 10px 0px;
+  margin-top: 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  border-radius: 20px 20px 20px 20px;
+  border: 1px solid gray;
+  background-color: #ffffff;
+  color: black;
+}
